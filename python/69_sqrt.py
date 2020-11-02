@@ -11,7 +11,9 @@ class Solution:
 # Memory Usage: 13.9 MB, less than 6.45% of Python3 online submissions for Sqrt(x).
 
 
-    def mySqrt2(self, x: int) -> int: #二分法
+    def mySqrt2(self, x: int) -> int: 
+        #二分法
+        #慢慢逼近答案
         if x < 2 :return x
         left, right = 1, x
         mid = 0
