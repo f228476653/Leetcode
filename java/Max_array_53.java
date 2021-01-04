@@ -1,4 +1,4 @@
-class Solution {
+class Max_array_53{
     public int maxSubArray2(int[] nums) {
         int max =-22222222;
         int temp =-22222222;

@@ -29,7 +29,7 @@ public class minimumAbsoluteDifferenceInBST_530 {
       prev_ = root.val;
       inorder(root.right);
       }
-    }
+
 
 }
 

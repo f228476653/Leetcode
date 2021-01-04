@@ -2,8 +2,7 @@ import java.util.Arrays;
 
 public class HowManyNumbersAreSmallerThanTheCurrentNumber {
 
-    class Solution {
-        public int[] smallerNumbersThanCurrent(int[] nums) {
+        public static int[] smallerNumbersThanCurrent(int[] nums) {
             int[] smaller =new int[101];
             for(int i=0;i< nums.length;i++){
                 smaller[nums[i]]++;
@@ -23,7 +22,7 @@ public class HowManyNumbersAreSmallerThanTheCurrentNumber {
             }
             return rs;
         }
-    }
+
     public static void main(final String[] args) {
 
         int[] input ={5,3,6,84,28,4,8};
