@@ -21,12 +21,11 @@ public class allPossibleTree_894 {
     }
 
     public static List<TreeNode> allPossibleFBT(int N) {
+        System.out.println(N);
         if (N % 2 == 0) return new ArrayList();
         List<TreeNode> result = new ArrayList();
         recurse(result, N);
         return result;
-        char a='r';
-        a.
     }
 
     public static void recurse(List<TreeNode> result, int N) {
@@ -44,7 +43,6 @@ public class allPossibleTree_894 {
 
             for (TreeNode left : leftTrees) {
                 for (TreeNode right : rightTrees) {
-
                     TreeNode node = new TreeNode(0);
                     node.left = left;
                     node.right = right;
