@@ -17,7 +17,7 @@ Fixed_Point.py) [Java](https://github.com/f228476653/leetcode/blob/master/java/1
 |3|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) |[java]() | |
 |4|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)  |[java]() | |
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)   | | |
-|6|  | | |
+|399|[Evaluate Division]  |[Java](https://github.com/f228476653/leetcode/blob/master/java/399_Evaluate_Division.java) | |
 |7|  | | |
 |8|  | | |
 |9|  | | |
