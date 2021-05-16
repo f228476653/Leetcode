@@ -18,9 +18,9 @@ Fixed_Point.py) [Java](https://github.com/f228476653/leetcode/blob/master/java/1
 |4|[Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/)  |[java]() | |
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/)   | | |
 |399|[Evaluate Division]  |[Java](https://github.com/f228476653/leetcode/blob/master/java/399_Evaluate_Division.java) | |
-|7|  | | |
-|8|  | | |
-|9|  | | |
+|743|[Network Delay Time]|[Java](https://github.com/f228476653/leetcode/blob/master/java/Network_Delay_Time_743.java) | |
+|1712|[Ways to Split Array Into Three Subarrays]  |[Java](https://github.com/f228476653/leetcode/blob/master/java/Ways_to_Split_Array_Into_Three_Subarrays_1712.java) | |
+|1029|[two City Scheduling]  |[Java](https://github.com/f228476653/leetcode/blob/master/java/twoCitySchedCost_1029.java) | |
 |10|  | | |
 |11|  | | |
 |12|  | | |

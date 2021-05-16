@@ -1,9 +1,7 @@
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-class Solution {
+import java.util.*;
+
+class Evaluate_Division_399 {
     public double[] calcEquation(List<List<String>> equations, double[] values, List<List<String>> queries) {
 
     Map <String,Map<String, Double>> g = new HashMap<>();
