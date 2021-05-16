@@ -41,5 +41,5 @@ Fixed_Point.py) [Java](https://github.com/f228476653/leetcode/blob/master/java/1
 |725|Split Linked List in Parts|[Python](https://github.com/f228476653/leetcode/blob/master/python/725SplitLinkedListinParts.py)  | |
 |849|Maximize Distance to Closest Person |[Python](https://github.com/f228476653/leetcode/blob/master/python/849_Maximize_Distance_to_Closest_Person.py)| |
 |965|Unrivaled Binary Tree |[Python](https://github.com/f228476653/leetcode/blob/master/python/965_Univalued_Binary_Tree.py)| |
-| | ||
+|75 |sort Color |[java](https://github.com/f228476653/leetcode/blob/master/java/sortColor.java)|
 | | ||
