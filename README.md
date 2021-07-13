@@ -42,5 +42,6 @@ Fixed_Point.py) [Java](https://github.com/f228476653/leetcode/blob/master/java/1
 |965|Unrivaled Binary Tree |[Python](https://github.com/f228476653/leetcode/blob/master/python/965_Univalued_Binary_Tree.py)| |
 |1029|Two City Sched Cost  |[java](https://github.com/f228476653/leetcode/blob/master/java/twoCitySchedCost_1029.java) [Python](https://github.com/f228476653/leetcode/blob/master/python/1290_Convert_Binary_Number_in_a_Linked_List_to_Integer.py)| |
 |1365|How Many Numbers Are Smaller Than The Current Number| [java](https://github.com/f228476653/leetcode/blob/master/java/HowManyNumbersAreSmallerThanTheCurrentNumber.java)| |
+|1382|Balance a Binary Search Tree|[java](https://github.com/f228476653/leetcode/blob/master/java/Balance_a_Binary_Search_Tree_1382.java)||
 |1712|[Ways to Split Array Into Three Subarrays]  |[Java](https://github.com/f228476653/leetcode/blob/master/java/Ways_to_Split_Array_Into_Three_Subarrays_1712.java) | |
 
