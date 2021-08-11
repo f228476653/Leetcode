@@ -38,7 +38,7 @@ public static ListNode removeNthFromEnd(ListNode head, int n) {
 
     ListNode start = new ListNode(0);
     ListNode slow = start, fast = start;
-    slow.next = head;
+    slow.next = head; //head 前面補０
 
     //Move fast in front so that the gap between slow and fast becomes n
     for (int i = 1; i <= n + 1; i++) {
@@ -57,8 +57,12 @@ public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode one =new ListNode(1);
         ListNode two =new ListNode(2);
         ListNode three =new ListNode(3);
+        ListNode four =new ListNode(4);
+        ListNode five =new ListNode(5);
         one.next=two;
         two.next=three;
+        three.next=four;
+        four.next=five;
         //SwapNodesInPairs_24.swapPairs(one);
         RemoveNthNodeFromEndofList_19.removeNthFromEnd(one,3);
     }
