@@ -2,14 +2,12 @@ import java.util.*;
 
 
 public class AllNodeDistanceK_863 {
-    Map<TreeNode, List<TreeNode>> map = new HashMap();
-//here can also use Map<TreeNode, TreeNode> to only store the child - parent mapping, since parent-child mapping is inherent in the tree structure
-
-    public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
-        List<Integer> res = new ArrayList<Integer>();
+    private static Map<TreeNode, List<TreeNode>> map = new HashMap();
+    public static List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
+        List<Integer> res = new ArrayList<Integer> ();
         if (root == null || K < 0) return res;
         buildMap(root, null);
-        if (!this.map.containsKey(target)) return res;
+        if (!map.containsKey(target)) return res;
         Set<TreeNode> visited = new HashSet<TreeNode>();
         Queue<TreeNode> q = new LinkedList<TreeNode>();
         q.add(target);
@@ -35,9 +33,9 @@ public class AllNodeDistanceK_863 {
 
     private static void buildMap(TreeNode node, TreeNode parent) {
         if (node == null) return;
-        if (!this.map.containsKey(node)) {
-            this.map.put(node, new ArrayList<TreeNode>());
-            if (parent != null)  { this.map.get(node).add(parent); this.map.get(parent).add(node) ; }
+        if (!map.containsKey(node)) {
+            map.put(node, new ArrayList<TreeNode>());
+            if (parent != null)  { map.get(node).add(parent); map.get(parent).add(node) ; }
             buildMap(node.left, node);
             buildMap(node.right, node);
         }
@@ -67,38 +65,38 @@ public class AllNodeDistanceK_863 {
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
-    Map<TreeNode, List<TreeNode>> map = new HashMap();
-    public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
-        List<Integer> res = new List<>();
-        if(K==0 || root==null){
-            return res;
-        }
-        buildMap();
-        LinkedList<TreeNode> queue = new LinkedList<>();
-        Set<TreeNode> visited = new Set<>();
-        queue.add(target);
-        visited.add(target);
-        while(!queue.empty()){
-            int size = queue.size();
-            if(K == 0){
-                for(int i=0;i<size;i++){
-
-                }
-                res.add();
-            }
-        }
-    }
-
-    private void buildMap(TreeNode node, TreeNode parent) {
-        if (node == null ) return;
-        if (!map.containsKey(node)){
-            List<TreeNode> nodes = new List<>();
-            if(parent != null){
-                map.get(node).add(parent);
-                map.get(parent).add(node);
-            }
-        }
-
-    }
-}
+//class Solution {
+//    Map<TreeNode, List<TreeNode>> map = new HashMap();
+//    public List<Integer> distanceK(TreeNode root, TreeNode target, int K) {
+//        List<Integer> res = new List<>();
+//        if(K==0 || root==null){
+//            return res;
+//        }
+//        buildMap();
+//        LinkedList<TreeNode> queue = new LinkedList<>();
+//        Set<TreeNode> visited = new Set<>();
+//        queue.add(target);
+//        visited.add(target);
+//        while(!queue.empty()){
+//            int size = queue.size();
+//            if(K == 0){
+//                for(int i=0;i<size;i++){
+//
+//                }
+//                res.add();
+//            }
+//        }
+//    }
+//
+//    private void buildMap(TreeNode node, TreeNode parent) {
+//        if (node == null ) return;
+//        if (!map.containsKey(node)){
+//            List<TreeNode> nodes = new List<>();
+//            if(parent != null){
+//                map.get(node).add(parent);
+//                map.get(parent).add(node);
+//            }
+//        }
+//
+//    }
+//}
